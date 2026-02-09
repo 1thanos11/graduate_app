@@ -1,0 +1,24 @@
+{
+  "name": "sarahaapp",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "moamen",
+  "type": "module",
+  "main": "./src/main.js",
+  "scripts": {
+    "start:dev": "cross-env NODE_ENV=development node --watch-path=. ./src/main.js",
+    "start:prod": "cross-env NODE_ENV=production node --watch-path=. ./src/main.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "cross-env": "^10.1.0",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "google-auth-library": "^10.5.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.1.6",
+    "validator": "^13.15.26"
+  }
+}
